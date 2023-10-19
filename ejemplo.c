@@ -5,7 +5,7 @@ int suma(int a, int b)
     return res;
 }
 
-int main()
+void main()
 {
     int num1,num2,resultado=0;
     printf("Ingrese el primer valor: ");
@@ -14,5 +14,5 @@ int main()
     scanf("%d", &num2);
     resultado=suma(num1,num2);
     printf("Resultado %d",resultado);
-    return 0;
+    //return 0;
 }
